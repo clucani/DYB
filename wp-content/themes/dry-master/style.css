@@ -1,0 +1,74 @@
+/*
+ * Theme Name: Dry Master
+ * Theme URI:
+ * Description: Emu Framework + Twitter's bootstrap UI framework
+ * Author: Emu
+ * Version: 1.0
+*/
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+.timer hr { margin-bottom: 5px; }
+.timer .clock { font-size: 2.6em; text-align: center; padding-bottom: 0px; }
+.timer .clock small { display: block; }
+.timer-buttons { margin-top: 5px; }
+.timer-buttons .btn { width: 70px; }
+.timer-buttons .top { padding-bottom: 5px; }
+p.small { }
+.small-time { font-size: 0.5em; }
+.extra-time:before { content: "+";}
+
+p.dry-history { margin-top: 12px; margin-bottom: 0; }
+
+a.show-dry-history { fxont-size: 0.8em; }
+
+.new-bag-button .button { margin-top: 100px; margin-bottom: 100px; }
+.new-bag-button .panel { border-style: dashed;}
+
+.container { xmargin-top: 30px; }
+.plot-container { height: 200px; }
+
+.bag-plot-wrapper {
+  width: 100%; /*whatever width you want*/
+  margin-top: 0px;
+  display: inline-block;
+  position: relative;
+}
+.bag-plot-wrapper:after {
+  padding-top: 70%; /*16:9 ratio*/
+  display: block;
+  content: '';
+}
+.bag-plot {
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0; /*fill parent*/
+}
+
+.dry-plot-wrapper {
+  width: 100%; /*whatever width you want*/
+  margin-top: 0px;
+  display: inline-block;
+  position: relative;
+}
+.dry-plot-wrapper:after {
+  padding-top: 60%; /*16:9 ratio*/
+  display: block;
+  content: '';
+}
+.dry-plot {
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0; /*fill parent*/
+}
+
+table.log-entries tr,
+table.log-entries td {cursor: pointer; cursor: hand;}
+
+
+#mainWrap { margin-top: 68px; }
+
+.panel-footer .btn { margin-left: 1px; }
+
+.update-id { padding-top: 10px; }

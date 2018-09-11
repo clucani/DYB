@@ -1,0 +1,101 @@
+.clearfix:after { clear: both; content: ' '; display: block; font-size: 0; line-height: 0; visibility: hidden; width: 0; height: 0; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.hidden { display: none; }
+
+.emu-admin div.colorPicker { display: none; position: absolute; margin-left: 94px; margin-top: -98px; border: 1px solid #ddd;  background-color: #fff; -moz-border-radius: 9px; -webkit-border-radius: 9px; -khtml-border-radius:9px; border-radius: 9px; z-index: 999 }
+.emu-admin div.colorView { display: block; float: left; margin: 1px 1px 0 0; height: 21px; width: 23px; border: 1px solid #ccc; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius:4px; border-radius: 4px; background-color: transparent }
+.emu-admin div.colorPicker div { padding: 0 !important; }
+
+.emu-admin div.properties { padding: 10px; background-color: #fff; -moz-border-radius: 9px; -webkit-border-radius: 9px; -khtml-border-radius:9px; border-radius: 9px;  }
+.emu-admin div.properties h3 { padding: 0 0 7px 7px; margin: 0; }
+.emu-admin div.properties div h3 { padding: 0 0 7px 7px; margin: 0; }
+
+.emu-admin table.properties .info { font-size: 11px; font-style: italic; }
+
+.emu-admin table.properties th,
+.emu-admin table.properties td { background-color: #F9F9F9; padding: 4px 5px; vertical-align: top; line-height: 23px; text-align: left; }
+.emu-admin table.properties th { font-weight: normal; width: 171px; }
+.emu-admin table.properties td { width: 192px; }
+.emu-admin table.properties select option { padding-right: 10px;}
+
+.emu-admin table.properties input.number { width: 45px; font-family: courier new; }
+.emu-admin table.properties input.color { width: 88px; font-family: courier new; }
+.emu-admin table.properties input.text { width: 177px; font-family: courier new; }
+.emu-admin table.properties input.field-error { border: 1px solid red; }
+.emu-admin table.properties ul.padding { list-style: none; margin: 0; padding: 0; }
+.emu-admin table.properties ul.padding li { list-style: none; margin: 0; padding: 0; display: block; float: left; line-height: 24px;}
+.emu-admin table.properties ul.padding li.name { width: 75px; }
+.emu-admin table.properties ul.padding li.values { width: 102px; }
+
+.emu-admin table.properties ul.padding li.clear { clear: left; float: none; }
+.emu-admin img.saving { margin-left: 5px; position: relative; top: 3px; display: none; }
+.emu-admin .emu-error { background-color: #FFD8D8; border-color: #FF9191; }
+
+.emu-admin .emu-form-row { margin-bottom: 5px; }
+
+/* Widget Control */
+
+.emu-widget-control h3 { margin: 0 !important; display: block; padding-top: 13px; }
+.emu-widget-control hr { margin: 0px !important; margin: 5px 0 0 0 !important}
+.emu-widget-control div { }
+.emu-widget-control div label { display: block; padding: 7px  0 3px 0; }
+.emu-widget-control .small-input { width: 57px !important }
+.emu-widget-control div span { margin-left: 4px; font-style: italic}
+.emu-widget-control div.info { background-color: #ffffe0; margin-top: 8px; padding: 5px; border: 1px solid #e6db55; -moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius:3px; border-radius: 3px; }
+
+.emu-dialog table th { text-align: left; font-size: 12px; width: 118px; padding-top: 8px; }
+
+.emu-dialog table th,
+.emu-dialog table td { text-align: left; vertical-align: top; font-size: 12px; font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif }
+
+.emu-dialog .column-one,
+.emu-dialog .column-two { width: 327px; float: left; }
+
+.emu-dialog .two-column .column-one { margin-right: 10px; }
+
+.emu-dialog .field-info { display: block; padding-top: 4px; color: #686868; }
+.emu-dialog .emu-form-row { margin-bottom: 10px; }
+.emu-dialog .emu-form-row label { display: block; padding-bottom: 7px; }
+.emu-dialog .emu-action { float: right; padding-top: 20px; }
+.emu-dialog .emu-text { width: 200px; height: 30px; padding: 2px; padding-top: 6px\9; border: 1px solid #CCCCCC; }
+.emu-dialog .emu-text-short { width: 80px; height: 30px; padding: 2px; padding-top: 6px\9; border: 1px solid #CCCCCC; }
+.emu-dialog .emu-select { width: 200px; height: 30px; padding: 2px; padding-top: 6px\9; border: 1px solid #CCCCCC;}
+.emu-dialog .emu-textarea { border: 1px solid #91746E; padding: 2px; }
+
+/* Templates */
+
+div#template-details { width: 786px; }
+
+textarea#templateContent { width: 763px; margin-top: 10px; height: 550px; font-family:Consolas,Monaco,Courier,monospace;font-size:12px; white-space: nowrap; color: #545454; padding: 10px; }
+
+.emu-templates div.properties { padding: 10px; background-color: #fff; -moz-border-radius: 9px; -webkit-border-radius: 9px; -khtml-border-radius:9px; border-radius: 9px;  }
+.emu-templates div.properties h3 { padding: 0 0 7px 7px; margin: 0; }
+.emu-templates div.properties div h3 { padding: 0 0 7px 7px; margin: 0; }
+
+.emu-templates table.properties th,
+.emu-templates table.properties td { background-color: #F9F9F9; padding: 4px 5px; vertical-align: top; line-height: 23px; text-align: left; }
+.emu-templates table.properties th { font-weight: normal; width: 171px; }
+.emu-templates table.properties td { width: 192px; }
+.emu-templates table.properties select option { padding-right: 10px;}
+
+.emu-templates table.properties input.number { width: 45px; font-family: courier new; }
+.emu-templates table.properties input.color { width: 88px; font-family: courier new; }
+.emu-templates table.properties input.text { width: 177px; font-family: courier new; }
+.emu-templates table.properties input.field-error { border: 1px solid red; }
+.emu-templates table.properties ul.padding { list-style: none; margin: 0; padding: 0; }
+.emu-templates table.properties ul.padding li { list-style: none; margin: 0; padding: 0; display: block; float: left; line-height: 24px;}
+.emu-templates table.properties ul.padding li.name { width: 75px; }
+.emu-templates table.properties ul.padding li.values { width: 102px; }
+
+.emu-templates table.properties ul.padding li.clear { clear: left; float: none; }
+
+.hidden { display: none; }
+
+.emu-templates img.saving { margin-left: 5px; position: relative; top: 3px; display: none; }
+
+.emu-templates table.properties { width: 100%; }
+.emu-templates table.properties td { width: auto; padding: 7px 5px; }
+.emu-templates table.properties td div { float: right; }
