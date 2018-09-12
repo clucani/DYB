@@ -57,6 +57,8 @@ The general procedure for using the app is as follows:
 
 * The system supports multiple users but these must be added to the database directly.
 
+* The 'Analyze phases' button links to a website that isn't currently available.
+
 ## Installation
 
 The app was built using WordPress (http://www.wordpress.org) 3.8 and a custom theme and plugin. Using WordPress as an app framework isn't ideal because WordPress is a content management system with way more functionality than is needed for a relatively simple app that has absolutely no content at all.  But at the time I had just finished developing a wordpress plugin/framework that makes wordpress theme development faster so it seemed smart idea to develop the app using the plugin so that 1) the new plugin could be tested, and 2) the app could be developed faster as a result of using the plugin. With hindsight this wasn't the greatest idea because the app is now married to WordPress and the overall system is much more complex and bloated than it needs to be. Really it should be ported over to something like node.js, even rails, or a php framework like laravel. 
