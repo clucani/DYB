@@ -1,7 +1,5 @@
 # DYB - a tool for tracking sample dry-downs
 
-A screenshot of the app in action. Overview of functionality and installation details below.
-
 ![](./images/X.png)
 
 ## Overview
