@@ -1,5 +1,9 @@
 # DYB - a tool for tracking sample dry-downs
 
+A screenshot of the app in action. Overview of functionality and installation details below.
+
+![](./images/X.png)
+
 ## Overview
 
 This app allows you manage sample dry-downs for plant drought experiments, typically for measurement of hydraulic conductance to generate vulnerability curves.
