@@ -21,7 +21,9 @@ The general procedure for using the app is as follows:
 
 4. Once the drying time has elapsed the timer will sound an alarm. The sample is now returned to the bag and sealed for equilibration. In the app the user selects a time for equilibration e.g. 15 mins and an equilibration timer starts running.  
 
-    ![](./images/F.png) ![](./images/G.png) 
+    Drying completed | Equilibrating
+    --- | ---
+    ![](./images/F.png) | ![](./images/G.png) 
 
 
 5. Once the equilibration time has elapsed another alarm will sound. A section of the sample is now removed from the sample in the bag and the water potential is determined (having re-sealed the bag). The water potential for the sample is entered into the program.
@@ -32,9 +34,9 @@ The general procedure for using the app is as follows:
 
 7. If the app has data for 2 drying times and water potentials then the app will apply a linear regression model to estimate water potential based on current drying times. By clicking the list and graph icons you can see the data entered and a plot of drying time/water potential and the regression applied. By monitoring the change in the standard error of the regression the app attempts to identify different phases in drying and uses the most recent regression to estimate drying times and water potentials.  
 
-    ![](./images/I.png)
-    ![](./images/J.png)
-    ![](./images/K.png)
+    Data list | Plot | Estimated WP shown
+    --- | --- | --
+    ![](./images/I.png) | ![](./images/J.png) | ![](./images/K.png)
 
 
 ### Notes
