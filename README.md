@@ -34,7 +34,7 @@ The general procedure for using the app is as follows:
 
 7. If the app has data for 2 drying times and water potentials then the app will apply a linear regression model to estimate water potential based on current drying times. By clicking the list and graph icons you can see the data entered and a plot of drying time/water potential and the regression applied. By monitoring the change in the standard error of the regression the app attempts to identify different phases in drying and uses the most recent regression to estimate drying times and water potentials.  
 
-    Data list | Plot | Estimated WP shown
+    Data | Plot | Estimated WP shown (C = Current WP, F = Final WP)
     --- | --- | --
     ![](./images/I.png) | ![](./images/J.png) | ![](./images/K.png)
 
